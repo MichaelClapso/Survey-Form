@@ -1,0 +1,22 @@
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+    color: orange;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: rgb(28, 28, 78);
+    display: block;
+    margin-top: 0em;
+    box-sizing: border-box;
+    height: 750px;
+    width: 40%;
+    margin-left: 470px;
+    padding: 2.5rem;
+}

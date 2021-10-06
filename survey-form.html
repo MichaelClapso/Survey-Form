@@ -16,12 +16,13 @@
             <p id="description">Thank you for taking the time to help us improve the platform</p>
         </header>
         <form id="survey-form">
-            <label for="name">Name</label><br>
-            <input type="text" placeholder="Enter your name" id="name-label" name="name"><br><br>
-            <label for="email">Email</label><br>
-            <input type="email" placeholder="Enter your Email" id="email-label" name="email"><br><br>
-            <label for="number">Age (optional)</label><br>
-            <input type="number" placeholder="Age" id="number-label" min="10" max="99" name="number"><br><br>
+            <label id="name-label" for="name">Name</label><br>
+            <input type="text" placeholder="Enter your name" id="name" name="name" required><br><br>
+            <label id="email-label" for="email">Email</label><br>
+            <input type="email" placeholder="Enter your Email" id="email" name="email" pattern=".+@globex\.com"
+                required><br><br>
+            <label for="number" id="number-label">Age (optional)</label><br>
+            <input type="number" placeholder="Age" id="number" min="10" max="99" name="number" required><br><br>
             <label for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
             <select name="recommend" id="dropdown">
                 <option value="">Select current role</option>
@@ -65,7 +66,6 @@
                 <label for="comments">Any comments or suggestions?</label><br>
 
                 <textarea name="comments" id="comments" rows="10">
-                    Enter your comment here
                 </textarea>
             </div>
             <div>
